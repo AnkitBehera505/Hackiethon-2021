@@ -46,3 +46,35 @@ section {
 .experience-wrapper li {
     margin: 8px 0;
 }
+
+.travel-section {
+    flex-direction: row;
+
+}
+
+.travel-section h1 {
+    margin: 0 0 0 50px;
+}
+
+.travel-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 32px;
+}
+
+.travel-section div {
+    margin: 32px;
+}
+
+.map {
+    width: 300px;
+    height: 300px; 
+}
+
+main {
+    background: rgb(241, 239, 240);
+}
+
+.about {
+    background: url("");
+}
