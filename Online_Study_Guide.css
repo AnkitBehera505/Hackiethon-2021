@@ -1,0 +1,26 @@
+body{
+    font-family: calibri;
+    background: linear-gradient(-45deg, #23F5FF, #FFF613);
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: orange;
+    background-color: gray;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+h4{
+    font-size: 16px;
+    font-weight: bold;
+}
