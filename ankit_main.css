@@ -2,6 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -76,5 +77,48 @@ main {
 }
 
 .about {
-    background: url("");
+    background: url("/background\ 1.jpg");
+    background-position-y: 65%;
+    background-size: cover;
+}
+
+nav {
+    color: white;
+    width: 100%;
+    position: fixed;
+    background: black;
+    padding: 0 2rem;
+    height: 60px;
+}
+
+.nav-bar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.nav-header {
+    all: unset;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    width: 250px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-travel-link {
+    margin-right: 1.5rem;
 }
